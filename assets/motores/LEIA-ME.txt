@@ -1,0 +1,11 @@
+Artes da seção de motores (Pág Agente.Tur)
+
+Salve cada arte nesta pasta com o nome exato abaixo. O preview troca o placeholder pela arte sozinho.
+Formato: 4:3, exportar em 1200 x 900 px, .webp
+
+01-disney.webp
+02-trem.webp
+03-esportes-eventos.webp
+04-principais-destinos.webp
+05-circuitos-pacotes.webp
+06-cartao-presente.webp

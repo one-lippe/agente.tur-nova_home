@@ -1,0 +1,20 @@
+:root {
+  --ms-name: "agentetur";
+
+  --s-color-brand-primary: #36454F;
+  --s-color-brand-dark: #83E509;
+
+  --s-header-default-height: 120px;
+  --s-header-default-link-color: #ffffff;
+  --s-header-default-bg-color: #36454F;
+  --s-header-default-brand-width: 220px;
+  --s-header-default-burger-icon-color: #ffffff;
+
+  --s-sb-main-bg-color:rgba(54, 69, 79, .7);
+  --s-sb-tabs-line-bg-color-active: #83E509;
+  --s-sb-bg-color-button-continuar: #83E509;
+  --s-sb-bg-color-button-continuar-hover: #76ce08;
+  --s-sb-tabs-font-color-hover: #83E509;
+  --s-sb-tabs-icon-color-hover: #83E509;
+  --s-sb-main-content-color: 255, 255, 255;
+}

@@ -25,6 +25,7 @@
 /* ===== NOVA SEÇÃO: motores ===== */
 .mt-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
 .mt-card{position:relative;display:block;height:400px;border-radius:8px;overflow:hidden;background:#242424;text-decoration:none!important;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+.mt-card__picture{display:block;width:100%;height:100%}
 .mt-card__art{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 50%;transition:transform .3s ease}
 .mt-card:hover .mt-card__art,a.mt-card:focus-visible .mt-card__art{transform:scale(1.05)}
 a.mt-card:focus-visible{outline:3px solid #373435;outline-offset:4px}
@@ -287,22 +288,40 @@ Clicando em "Pesquisar", eu concordo com os
 <div class="c-section-home__container o-container o-container--large o-container--fit@max-lg">
 <div class="mt-grid">
 <a class="mt-card" data-motor="01-disney" href="https://www.agente.tur.br/pt_br/disney/disney" rel="noopener" target="_blank" aria-label="Disney">
+<picture class="mt-card__picture">
+<source media="(max-width: 767px)" srcset="assets/motores/mobile/01-disney-mobile.jpg?v=mobile-20261026" width="860" height="800"/>
 <img alt="Disney" class="mt-card__art" src="assets/motores/01-disney.jpg?v=motores-desktop-20261026" width="1536" height="900" loading="lazy" decoding="async"/>
+</picture>
 </a>
 <a class="mt-card" data-motor="02-trem" href="https://www.agente.tur.br/pt_br/landing/28264/trem" rel="noopener" target="_blank" aria-label="Trem">
+<picture class="mt-card__picture">
+<source media="(max-width: 767px)" srcset="assets/motores/mobile/02-trem-mobile.jpg?v=mobile-20261026" width="860" height="800"/>
 <img alt="Trem" class="mt-card__art" src="assets/motores/02-trem.jpg?v=motores-desktop-20261026" width="1536" height="900" loading="lazy" decoding="async"/>
+</picture>
 </a>
 <a class="mt-card" data-motor="03-esportes-eventos" href="https://www.agente.tur.br/pt_br/landing/30015/esporteseventos" rel="noopener" target="_blank" aria-label="Esportes &amp; Eventos">
+<picture class="mt-card__picture">
+<source media="(max-width: 767px)" srcset="assets/motores/mobile/03-esportes-eventos-mobile.jpg?v=mobile-20261026" width="860" height="800"/>
 <img alt="Esportes &amp; Eventos" class="mt-card__art" src="assets/motores/03-esportes-eventos.jpg?v=motores-desktop-20261026" width="1536" height="900" loading="lazy" decoding="async"/>
+</picture>
 </a>
 <div class="mt-card" data-motor="04-principais-destinos">
+<picture class="mt-card__picture">
+<source media="(max-width: 767px)" srcset="assets/motores/mobile/04-principais-destinos-mobile.jpg?v=mobile-20261026" width="860" height="800"/>
 <img alt="Principais destinos" class="mt-card__art" src="assets/motores/04-principais-destinos.jpg?v=motores-desktop-20261026" width="1536" height="900" loading="lazy" decoding="async"/>
+</picture>
 </div>
 <div class="mt-card" data-motor="05-circuitos-pacotes">
+<picture class="mt-card__picture">
+<source media="(max-width: 767px)" srcset="assets/motores/mobile/05-circuitos-pacotes-mobile.jpg?v=mobile-20261026" width="860" height="800"/>
 <img alt="Circuitos &amp; Pacotes" class="mt-card__art" src="assets/motores/05-circuitos-pacotes.jpg?v=motores-desktop-20261026" width="1536" height="900" loading="lazy" decoding="async"/>
+</picture>
 </div>
 <a class="mt-card" data-motor="06-cartao-presente" href="https://www.agente.tur.br/pt_br/giftcard/giftcard" rel="noopener" target="_blank" aria-label="Cartão presente">
+<picture class="mt-card__picture">
+<source media="(max-width: 767px)" srcset="assets/motores/mobile/06-cartao-presente-mobile.jpg?v=mobile-20261026" width="860" height="800"/>
 <img alt="Cartão presente" class="mt-card__art" src="assets/motores/06-cartao-presente.jpg?v=motores-desktop-20261026" width="1536" height="900" loading="lazy" decoding="async"/>
+</picture>
 </a>
 </div>
 </div>

@@ -4,7 +4,8 @@ Seis artes desktop finais, 1536 × 900 px, JPG/sRGB, exportadas do Photoshop.
 Altura de exibição: 400 px; a partir de 1500 px de viewport, 450 px.
 Recorte central com object-fit: cover e ampliação de 1,05 na interação.
 Grade do preview: 3 colunas a partir de 992 px, 2 a partir de 768 px e 1 abaixo disso.
-A distribuição responsiva é uma simulação do preview. A validação mobile real continua pendente; o preview usa as artes desktop em todas as telas.
+Abaixo de 768 px o preview usa seis artes mobile dedicadas de 860 × 800 px na pasta mobile/. Desktop permanece com os originais de 1536 × 900 px.
+A distribuição responsiva é uma simulação do preview, conferida em 320, 390 e 430 px. A validação no CMS real continua pendente.
 
 Disney, Trem, Esportes & Eventos e Cartão presente conservam seus links.
 Principais destinos e Circuitos & Pacotes aguardam definição de URL e não são links neste preview.
